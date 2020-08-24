@@ -11,7 +11,7 @@
   }
   
   body {
-    background: #ededed;
+    background: var(--tertiary);
     color: var(--grey);
     margin: 0;
     padding: 0;
@@ -22,11 +22,21 @@
   }
   
   .timer {
+    position: right;
     text-align: right;
     font-weight: bold;
   }
 
+  .hAlign {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h3 {
+      color: var(--secondary)
+  }
   .container{
+    align-content: center;
     margin: auto;
     width: 100%;
     height: 100px;
@@ -58,7 +68,6 @@
   header {
     background: var(--tertiary);
     padding: 30px 25px;
-    border-bottom: 5px solid var(--primary);
   }
   
   header p {
