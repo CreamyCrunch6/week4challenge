@@ -10,33 +10,25 @@
 
     <header>
 
-        <p>View High Scores</p>
+        <div>
+        <a>View High Scores</a>
         
-        <p>Click the button below to add a new task!</p>
-
-        <form id='task-form'>
-            <div class='form-group'>
-                <input type='text' name='task-name' class='text-input' placeholder="Enter Task Name" />
-            </div>
-            <div class='form-group'>
-                <select name='task-type' class='select-dropdown'>
-                    <option value='' disabled selected>Pick a task type</option>
-                    <option value='Print'>Print</option>
-                    <option value='Web'>Web</option>
-                    <option value='Mobile'>Mobile</option>
-                </select>
-            </div>
-        </form>
-        
-
+        <a class="timer">Timer 60</a>
+        </div>
     </header>
 
     <main>
 
 
-        <div class="form-group">
-            <button class ="btn" id="save-task" type='submit' draggable="true">Add Task</button>
-        </div> 
+        
+    <div class="container">
+        <h1 class="welcome">Are you ready?</h1>
+        <button id="start">Start</button>
+        <h2 id="countdown"></h2>
+        <p id="main"></p>
+      </div>
+            
+      
 
     </main>
 
